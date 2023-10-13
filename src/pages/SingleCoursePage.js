@@ -18,6 +18,7 @@ const SingleCoursePage = () => {
 
   useEffect(() => {
     fetchSingleCourse(id);
+    // eslint-disable-next-line
   }, []);
 
   const {
